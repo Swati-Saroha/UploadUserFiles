@@ -9,7 +9,8 @@ class UrlMappings {
             }
         }
 
-        "/"(controller: "public", action: "index")
+        "/"(controller: "person1", action: "upload")
+
         "500"(view:'/error')
         "404"(view:'/notFound')
     }

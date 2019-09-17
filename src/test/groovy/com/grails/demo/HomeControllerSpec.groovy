@@ -1,9 +1,9 @@
-package uploaduserfile
+package com.grails.demo
 
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class PublicControllerSpec extends Specification implements ControllerUnitTest<PublicController> {
+class HomeControllerSpec extends Specification implements ControllerUnitTest<HomeController> {
 
     def setup() {
     }
@@ -11,7 +11,7 @@ class PublicControllerSpec extends Specification implements ControllerUnitTest<P
     def cleanup() {
     }
 
-    void "test for action sum()"() {
+    void "test something"() {
         expect:"fix me"
             true == false
     }

@@ -12,6 +12,7 @@ class PublicController {
 
     def uploadFeaturedImage(UploadUserFileCO cmd) {
         println("Upload image action......")
+
         if (cmd.hasErrors()) {
             println("Upload image action : has errors......")
             respond(cmd.errors, view: 'index')
@@ -26,6 +27,9 @@ class PublicController {
 
 
         redirect(controller: "public" , action:"uploadFeaturedImage")
+    }
+
+    def uploadExcel() {
     }
 }
 

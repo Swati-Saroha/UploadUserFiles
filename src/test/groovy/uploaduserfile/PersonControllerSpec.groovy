@@ -3,7 +3,7 @@ package uploaduserfile
 import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class PublicControllerSpec extends Specification implements ControllerUnitTest<PublicController> {
+class PersonControllerSpec extends Specification implements ControllerUnitTest<PersonController> {
 
     def setup() {
     }
@@ -11,7 +11,7 @@ class PublicControllerSpec extends Specification implements ControllerUnitTest<P
     def cleanup() {
     }
 
-    void "test for action sum()"() {
+    void "test something"() {
         expect:"fix me"
             true == false
     }
